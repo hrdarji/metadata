@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+<head>
+	Metadata
+</head>
+<body>
+	<ul>
+  	{% for tag,value in alldata.iteritems() %}
+    	<li> <b>{{tag}}</b> : <font color="BLUE" ><i>{{ value }} </font> </i></li>
+  	{% endfor %}
+  	</ul>
+</body>
+</html>

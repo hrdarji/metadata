@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<hr>
+	<B>
+	<font color="BLUE">
+	This is the report generated after analyzing all PDF and IMAGES from given image files.
+	<br><br>
+	Click on filename to see metadata
+	<B>
+	<hr>
+</head>
+<body>
+	<ul>
+  	{% for filename in allfiles %}
+    	<li><a href="{{filename}}.html">{{filename}}</a></li>
+  	{% endfor %}
+  	</ul>
+</body>
+</html>
