@@ -1,6 +1,6 @@
 #! /usr/bin/python
 """
-This script was written as a part of Digital Forensics Assignment
+
 Purpose: Get metadata of PDF and IMAGES form given image files and generate HTML report
 Author: Hardik Darji ( NYU Poly ID:0526919)
 
