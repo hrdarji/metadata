@@ -2,17 +2,17 @@
 """
 
 Purpose: Get metadata of PDF and IMAGES form given image files and generate HTML report
-Author: Hardik Darji ( NYU Poly ID:0526919)
+Author: Hardik Darji
 
-Script was tested on Ubuntu 12.04 LTS 
+Script was successfully tested on Ubuntu 12.04 LTS 
 Script needs super user permissions to run successfully.
 
 Script uses jinja2 library to generate HTML report
 Script uses hashlib to generate MD5 for files
 
 Usage examples:
-sudo python assignment5_working.py img.txt
-sudo python assignment5_working.py IMAGE1,IMAGE2
+sudo python metadata.py img.txt
+sudo python metadata.py IMAGE1,IMAGE2
 
 Script will store all the data to sqlite3 database MetaData.db
 
