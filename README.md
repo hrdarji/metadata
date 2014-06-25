@@ -14,6 +14,7 @@ Script uses hashlib to generate MD5 for files
 
 Usage examples:
 sudo python metadata.py img.txt
+
 sudo python metadata.py IMAGE1,IMAGE2
 
 Script will store all the data to sqlite3 database MetaData.db
