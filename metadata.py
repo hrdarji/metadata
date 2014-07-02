@@ -69,8 +69,8 @@ class imageInfo(Base):
 		self.Label=Label
 		self.Value=Value
 		
-# === Assignment5 Classes with extraction methods========================================================
-class Assignment5(object):
+# === Metadata Classes with extraction methods========================================================
+class Metadata(object):
 	
 	def __init__(self, img = ''):
 		if img == '' or not os.path.exists(img):		
@@ -178,7 +178,7 @@ def main(argv):
 			imgs = args.img
 
 	for img in imgs:
-		osf = Assignment5(img)
+		osf = Metadata(img)
 		#osf.fingerprint()
 		osf.carve()
 		
